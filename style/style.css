@@ -38,7 +38,7 @@ ul:hover li {
 }
 li:hover {
     opacity: 1 !important;
-    cursor: url('/img/cursor.svg'), pointer;
+    cursor: url('/img/cursor-icon.svg'), pointer;
 }
 
 .first-group {
@@ -186,3 +186,4 @@ h3 {
     margin-left: 11px;
     color: #fff;
 }
+/**/
