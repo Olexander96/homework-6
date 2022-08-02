@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    line-height: 1;
+}
+
+main {
+    border: 25px solid #2B81AC;
+    background-color: #3399CC;
+    min-height: 100vh;
+    padding: 60px 20px 100px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .title {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.container .cities {
+    max-width: 1170px;
+    height: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 37px;
+}
+
+.cities:hover li {
+    opacity: 0.5;
+}
+
+li:hover {
+    opacity: 1 !important;
+    cursor: url('../img/cursor-icon.svg'), pointer;
+}
+
+.first-group {
+    width: 25%;
+    height: 147px;
+    border: 2px solid #FFFFFF;
+}
+
+.second-group {
+    width: 50%;
+    height: 147px;
+    border: 2px solid #FFFFFF;
+}
+
+.third-group {
+    width: 100%;
+    height: 147px;
+    border: 2px solid #FFFFFF;
+}
+
+li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.lisbon {
+    background-color: #3399CC;
+}
+
+.paris {
+    background-color: #33CCCC;
+}
+
+.belgrade {
+    background-color: #996699;
+}
+
+.venice {
+    background-color: #C24747;
+}
+
+.tel-avive {
+    background-color: #E2674A;
+}
+
+.cair {
+    background-color: #FFCC66;
+}
+
+.new-york {
+    background-color: #99CC99;
+}
+
+.new-delhi {
+    background-color: #669999;
+}
+
+.san-francisco {
+    background-color: #CC6699;
+}
+
+.tokyo {
+    background-color: #339966;
+}
+.sidney {
+    background-color: #666699;
+}
+
+li h3 {
+    margin-bottom: 4px;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.weather-container p {
+    margin-right: 11px;
+}
+
+.greeting {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff; 
+}
+
+.title .wi-sunrise {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    margin-left: 4px;
+    color: #fff;
+}
+
+.wi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #fff;
+}
+
